@@ -1,0 +1,12 @@
+{
+  "name": "three.js",
+  "repo": "timoxley/three.js",
+  "description": "JavaScript 3D library",
+  "version": "0.0.52",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "build/three.js"
+  ]
+}
