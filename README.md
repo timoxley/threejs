@@ -6,6 +6,7 @@ The aim of the project is to create a lightweight 3D library with a very low lev
 
 This is a slight adaption of the original three.js code to work as a
 [component](https://github.com/component/component/wiki/Components).
+
 ## Installation
 
     $ component install timoxley/three.js
@@ -20,7 +21,7 @@ var THREE = require('three.js')
 
 ## API
 
-See [documentation](http://mrdoob.github.com/three.js/docs/52/) and
+See the [three.js website](http://mrdoob.github.com/three.js/),  [documentation](http://mrdoob.github.com/three.js/docs/52/) and
 mrdoob's  
 [github repo](https://github.com/mrdoob/three.js/)
 
@@ -37,6 +38,11 @@ Original three.js build system in
 build the `three.js` lib in the `build`
 folder. This file needs to be renamed as `index.js` in the project root.
 
+## Thanks
+
+Thanks to [mrdoob](http://mrdoob.com/) for his endless tirade of amazing
+work.
+
 ## License
 
-[MIT](https://github.com/timoxley/three.js/blob/master/LICENSE))
+[MIT](https://github.com/timoxley/three.js/blob/master/LICENSE)
