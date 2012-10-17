@@ -7,6 +7,6 @@
   "dependencies": {},
   "development": {},
   "scripts": [
-    "build/three.js"
+    "index.js"
   ]
 }
