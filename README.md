@@ -9,13 +9,13 @@ This is a slight adaption of the original three.js code to work as a
 
 ## Installation
 
-    $ component install timoxley/three.js
+    $ component install timoxley/threejs
 
 ## Usage
 
 ```js
 
-var THREE = require('three.js')
+var THREE = require('threejs')
 
 ```
 
