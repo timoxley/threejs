@@ -19,7 +19,7 @@ def InitializeSdkObjects():
 
 def SaveScene(pSdkManager, pScene, pFilename, pFileFormat = -1, pEmbedMedia = False):
     lExporter = KFbxExporter.Create(pSdkManager, "")
-    if pFileFormat < 0 or pFileFormat >= pSdkManager.GetIOPluginRegistry().GetWriteFormatCount():
+    if pFileFormat < 0 or pFileFormat >= pSdkManager.GetIOPluginRegistry().GetWriterFormatCount():
         pFileFormat = pSdkManager.GetIOPluginRegistry().GetNativeWriterFormat()
         if not pEmbedMedia:
             lFormatCount = pSdkManager.GetIOPluginRegistry().GetWriterFormatCount()
